@@ -15,12 +15,17 @@
     align-items: center;
   }
   
+  /* .container {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+  } */
   .container {
+    margin: 10px; /* Adjust the value as needed */
     width: 350px;
     height: 500px;
     perspective: 800px;
   }
-  
   .container:hover > .card {
     cursor: pointer;
     transform: rotateY(180deg);
